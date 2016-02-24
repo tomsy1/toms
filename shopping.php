@@ -12,8 +12,19 @@
           
           
           <div class="page_content">
-          
-              
+          <div class="contactform">
+               <form action='includes/insert.php' method='post' id='myform' >
+ <p>
+ 	<input type="text" name="new-task" value="" class="form_input" />
+ 
+ </p>
+ <input type="submit" name="submit" class="form_submit" id="submit" value="Send" /> 
+
+ 
+ <p id='result'></p>
+ </form>
+ <script src='/includes/insert.js'></script>
+                </div>
           
 
           
@@ -42,9 +53,6 @@
 				
 			</ul>
 		</div>
-		<form class="add-new-task" autocomplete="off">
-			<input type="text" name="new-task" placeholder="Add a new item..." />
-		</form>
 	</div><!-- #wrap -->
 </body>
 
